@@ -1,13 +1,16 @@
-const react = require('react');
-const reactDom = require('react-dom');
+import Greeting from './greeting';
+// const react = require('react');
+// const reactDom = require('react-dom');
+import ProfilePhoto from './ProfilePhoto';
 
-const Home = ()=>{
+const Home = () => {
     return (
         <div>
-            <h1>Hey! This is Yourname!</h1>
-            <h1>Glad to see you Here.</h1>
-            <h1>Traverse through my Portfolio</h1>
-        </div>
+            <Greeting />
+            <h1>Hey! Arjun here.</h1>
+            <h3>Let's traverse through my Profile.</h3>
+            <ProfilePhoto />
+        </div >
     )
 }
 

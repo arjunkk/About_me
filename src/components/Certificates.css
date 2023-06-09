@@ -1,0 +1,21 @@
+/* ProfilePhoto.css */
+.profile-photo-container {
+    text-align: right;
+    margin-right: 10vw;
+  }
+  
+  .profile-photo {
+    width: 20vw;
+    height: 40vh;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .certificate-photo {
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+  }
+  .flexcertificate {
+    display: flex;
+  }

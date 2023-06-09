@@ -1,6 +1,3 @@
-const react = require('react');
-const reactDom = require('react-dom');
-
 const Projects = ()=>{
     return (
         <div>

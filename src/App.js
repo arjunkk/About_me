@@ -6,7 +6,7 @@ import Home from './components/home';
 import Education from './components/education';
 import Skills from './components/skills';
 import Projects from './components/projects';
-import More from './components/more';
+import Certifications from './components/Certifications'
 import Contact from './components/contact';
 import Footer from './components/Footer';
 
@@ -16,9 +16,8 @@ function App() {
     <BrowserRouter>
     <Nav />
     <Routes>
-        <Route path='/' element={<h1>Hello! It's me</h1>}></Route>
-        <Route path='/Home' element={<Home />}></Route>
-        <Route path='/More' element={<More />}></Route>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/Certifications' element={ <Certifications />}></Route>
         <Route path='/Education' element={<Education />}></Route>
         <Route path='/Projects' element={<Projects />}></Route>
         <Route path='/Contact' element={<Contact />}></Route>

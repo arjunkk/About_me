@@ -1,15 +1,17 @@
-const react = require('react');
-const reactDom = require('react-dom');
-
 //contact details
-const Contact = ()=>{
+const Contact = () => {
     return (
         <div>
             <h1>Reach out to me:</h1>
             <div className="Contacts">
                 <label>E-mail  :</label>
-                <a href="mailto:yourmail@mail.com">yourmail@gmail.com</a>
-        </div>
+                <a href="mailto:arjunkkirde@mail.com">arjunkkirde@gmail.com</a>
+                <div id="sticky">
+                    <a href="https://api.whatsapp.com/send?phone=9374839332" target="_blank" rel="noreferrer">
+                        <img src="/images/whatsapp.png" alt="WhatsApp Icon" width="30" height="30"></img>
+                    </a>
+                </div>
+            </div>
         </div>
     )
 }
