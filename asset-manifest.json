@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/about_me/static/css/main.3e60610d.css",
-    "main.js": "/about_me/static/js/main.bc49a71c.js",
+    "main.css": "/about_me/static/css/main.a62ad5d7.css",
+    "main.js": "/about_me/static/js/main.588204ba.js",
     "static/js/787.bf6be429.chunk.js": "/about_me/static/js/787.bf6be429.chunk.js",
+    "static/media/NptelDNW.png": "/about_me/static/media/NptelDNW.2464bc884686d3e02a57.png",
+    "static/media/cognizant.png": "/about_me/static/media/cognizant.a77fab8e64361feb68b8.png",
+    "static/media/Wells_Fargo.png": "/about_me/static/media/Wells_Fargo.c5c34aabff8d28b216fe.png",
+    "static/media/profile2.jpg": "/about_me/static/media/profile2.47ef56a41129126a2c99.jpg",
+    "static/media/cisco.png": "/about_me/static/media/cisco.08f108fef79c46912d08.png",
     "index.html": "/about_me/index.html",
-    "main.3e60610d.css.map": "/about_me/static/css/main.3e60610d.css.map",
-    "main.bc49a71c.js.map": "/about_me/static/js/main.bc49a71c.js.map",
+    "main.a62ad5d7.css.map": "/about_me/static/css/main.a62ad5d7.css.map",
+    "main.588204ba.js.map": "/about_me/static/js/main.588204ba.js.map",
     "787.bf6be429.chunk.js.map": "/about_me/static/js/787.bf6be429.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e60610d.css",
-    "static/js/main.bc49a71c.js"
+    "static/css/main.a62ad5d7.css",
+    "static/js/main.588204ba.js"
   ]
 }
