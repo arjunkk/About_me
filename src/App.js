@@ -9,6 +9,10 @@ import Projects from './components/projects';
 import Certifications from './components/Certifications'
 import Contact from './components/contact';
 import Footer from './components/Footer';
+import NgoColab from './components/Projects/NgoColab';
+import WorkerEmployability from './components/Projects/WorkerEmployability';
+import PortfoliUsingReact from './components/Projects/PortfoliUsingReact';
+import WaterMonitoringSystem from './components/Projects/WaterMonitoringSystem';
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
         <Route path='/Projects' element={<Projects />}></Route>
         <Route path='/Contact' element={<Contact />}></Route>
         <Route path='/Skills' element={<Skills />}></Route>
+        <Route path='/Projects/NgoColab' element={<NgoColab />}></Route>
+        <Route path='/Projects/WorkerEmployability' element={<WorkerEmployability />}></Route>
+        <Route path='/Projects/PortfoliUsingReact' element={<PortfoliUsingReact />}></Route>
+        <Route path='/Projects/WaterMonitoringSystem' element={<WaterMonitoringSystem />}></Route>
     </Routes> 
     <Footer />
     </BrowserRouter>

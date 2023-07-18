@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from './images/profile2.jpg'; // Relative path to the image
+import profileImage from './images/Profile_new.jpg'; // Relative path to the image
 import './ProfilePhoto.css'; // Import the CSS file
 
 const ProfilePhoto = () => {

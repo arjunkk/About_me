@@ -1,4 +1,5 @@
 import React from 'react';
+import './Greeting.css';
 
 const Greeting = () => {
   const myDate = new Date();
@@ -6,14 +7,14 @@ const Greeting = () => {
   let greet;
 
   if (hrs < 12)
-    greet = 'Good Morning';
+    greet = 'Good Morning!';
   else if (hrs >= 12 && hrs <= 17)
-    greet = 'Good Afternoon';
+    greet = 'Good Afternoon!';
   else if (hrs >= 17 && hrs <= 24)
-    greet = 'Good Evening';
+    greet = 'Good Evening!';
 
   return (
-    <div>
+    <div className='greet'>
       <h1>{greet}</h1>
     </div>
   );

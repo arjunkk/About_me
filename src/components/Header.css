@@ -1,0 +1,20 @@
+.Nav-ul li{
+    display: inline-block;
+    padding: 10px;
+  }
+  .Nav-ul li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  }
+  
+  .Nav-ul{
+  margin: 0; 
+  background-color: skyblue;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  }
