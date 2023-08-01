@@ -1,3 +1,9 @@
+body{
+  background-color: #31e08e42;
+  width: 100vh;
+  height: 100vw;
+}
+
 .Subscribe{
 margin-left: 30px;
 }

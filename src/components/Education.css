@@ -1,3 +1,44 @@
-.education{
-    margin-top: 10vh;
-}
+/* education.css */
+
+#educationsytle {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 70vw;
+    height: 70vh;
+    margin-top: 25vh;
+  }
+  
+  #engmystyle,
+  #hscmystyle,
+  #sscmystyle {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #engmystyle h3,
+  #hscmystyle h3,
+  #sscmystyle h3 {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  #engmystyle h4,
+  #hscmystyle h4,
+  #sscmystyle h4 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+  }
+  
+  #engmystyle sup,
+  #hscmystyle sup,
+  #sscmystyle sup {
+    font-size: 12px;
+  }
+  

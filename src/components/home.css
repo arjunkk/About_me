@@ -1,0 +1,34 @@
+/* home.css */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align items to the top of the container */
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    margin: 13vh;
+    width: 70vw;
+    height: 45vh;
+  }
+  
+  .left-content {
+    flex: 1; /* Take available space, but not more than 50% */
+    margin-right: 20px; /* Add some space between the columns */
+  }
+  
+  .right-content {
+    flex: 1; /* Take available space, but not more than 50% */
+  }
+  
+  .profile-photo {
+    width: 200px; /* Set the width of the profile photo */
+    height: auto;
+    border-radius: 10%; /* Round the corners to create a circle */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  

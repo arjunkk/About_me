@@ -3,8 +3,9 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 20px;
+    padding-bottom: 1vh;
+    height: 5vh;
     text-align: center;
-  background-color: skyblue;
+  background-color: #55a294;
   }
   

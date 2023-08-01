@@ -1,0 +1,53 @@
+/* contact.css */
+
+.container {
+    max-width: 800px;
+    margin: 20vh;
+    padding: 30px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .Contacts {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .Contacts label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    min-width: 80px;
+  }
+  
+  .Contacts a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  #sticky {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  #sticky img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #sticky img:hover {
+    transform: scale(1.2);
+  }
+  
