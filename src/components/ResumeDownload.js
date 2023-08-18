@@ -1,10 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 const ResumeDownload = () => {
   const handleDownload = () => {
     const fileUrl = process.env.PUBLIC_URL + '/RESUME_Arjun_K_Kirde.pdf';
     window.open(fileUrl, '_blank');
   };
+
+  const [Download,setDownload]=useState(0)
+  function updateDownloadCount(){
+    setDownload(Download+1);
+  }
 
   // Define the internal CSS styles as an object
   const resumeButton = {
@@ -19,7 +24,7 @@ const ResumeDownload = () => {
     <div style={resumeButton} onClick={handleDownload}>
       {/* Apply the resumeButton styles object to the style attribute */}
       <button>
-        <h1>Download Resume</h1>
+        <h1 onClick={updateDownloadCount}>Download Resume:{Download}</h1>
       </button>
     </div>
   );
