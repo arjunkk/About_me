@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 
 const ResumeDownload = () => {
   const handleDownload = () => {
-    const fileUrl = process.env.PUBLIC_URL + '/RESUME_Arjun_K_Kirde.pdf';
+    const fileUrl = process.env.PUBLIC_URL + '/ARJUN KAILAS KIRDE _VIT VELLORE.pdf';
     window.open(fileUrl, '_blank');
   };
 
