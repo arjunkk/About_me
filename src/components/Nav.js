@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Nav=()=>{
-    const [views,setViews]=useState(0)
+    var [views,setViews]=useState(0)
     function updateviewscount(){
         setViews(views+1);
     }

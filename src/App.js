@@ -1,5 +1,8 @@
 import './App.css';
 import {Routes,Route, BrowserRouter } from 'react-router-dom';
+// GA4 tracking
+import ReactGA from "react-ga4";
+ReactGA.initialize(G-6C442RVEVX);
 
 import Nav from './components/Nav';
 import Home from './components/home';
