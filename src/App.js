@@ -24,7 +24,6 @@ function App() {
     // Track initial pageview
     ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
   }, []);
-
   return (
     <div className="App">
       <BrowserRouter>
